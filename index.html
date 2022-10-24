@@ -156,14 +156,16 @@
 
     <!-- Modal images -->
     <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document" style="position: absolute;">
-            <div class="modal-content" style="width: fit-content;">
+        <div class="modal-dialog" role="document" > <!-- style="position: absolute;" -->
+            <div class="modal-content" ><!-- style="width: fit-content;" -->
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>        
                     <!-- 16:9 aspect ratio -->
-                    <img id="image" class="img" src="https://lh3.googleusercontent.com/pw/AL9nZEXbiSEcPrgHGVFVsVl0hVY9xh17ImZ0H2C-YJviE2yHKbgzYOPUzz90WRFIF8OIboXVTYMoLL_gnzdPvd7_WXjT2nrHJ0hzbzXe-47LY0LR_-aiDuGDJtdnAAxtCBfcF7otx42n2YBfVIqEzurBWX79=w417-h625-no?authuser=0" >
+                    <div class="embed-responsive-16by9"></div>
+                        <img style="width: 100%;" id="image" class="embed-responsive-item" src="https://lh3.googleusercontent.com/pw/AL9nZEXbiSEcPrgHGVFVsVl0hVY9xh17ImZ0H2C-YJviE2yHKbgzYOPUzz90WRFIF8OIboXVTYMoLL_gnzdPvd7_WXjT2nrHJ0hzbzXe-47LY0LR_-aiDuGDJtdnAAxtCBfcF7otx42n2YBfVIqEzurBWX79=w417-h625-no?authuser=0" >
+                    </div>
                 </div>
             </div>
         </div>
